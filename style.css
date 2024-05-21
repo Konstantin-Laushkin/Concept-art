@@ -72,9 +72,9 @@ body {
     font-family: 'gothampro2';  
     font-weight: 400;   
     color: white;   
-    font-size: clamp(7px,1vw,30px) ;
+    font-size: clamp(10px,1vw,30px) ;
     width: clamp(100px,21.5625vw,362px);
-    padding-bottom: 2vw;
+    padding-bottom: 3vw;
 }
 .second-back{
     display: flex;
@@ -124,6 +124,7 @@ body {
     font-family: 'gothampro1'; 
     color: white;
     padding-bottom: 2.9vw;
+    padding-top: 47;
 }
 .zag-2{
     font-family: "Palanquin", system-ui;
@@ -804,8 +805,8 @@ html {
 }
 .end{
     display: flex;
-    justify-content: space-between;
-    gap: 3vw;
+    justify-content: center;
+    gap: 5vw;
     align-items: center;
     margin-top: 2vw;
 }
@@ -814,13 +815,13 @@ html {
     padding-top: 1vw;
     margin: 0;
     line-height: clamp(10px,1.6vw,40px);
-    font-size: clamp(7px,0.8vw,30px);
+    font-size: clamp(10px,0.8vw,30px);
 }
 
 .end svg{
     margin-right: 0.5vw;
-    width: clamp(15px,2.2vw,50px);
-    height: clamp(15px,2.2vw,50px);
+    width: clamp(35px,2.2vw,50px);
+    height: clamp(12px,2.2vw,50px);
 }
 
 .podsl3{
